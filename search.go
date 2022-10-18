@@ -287,6 +287,7 @@ type TvSearchResults struct {
 		FirstAirDate  string   `json:"first_air_date"`
 		OriginCountry []string `json:"origin_country"`
 		PosterPath    string   `json:"poster_path"`
+		GenreIds      []int    `json:"genre_ids"`
 		Popularity    float32
 		Name          string
 		VoteAverage   float32 `json:"vote_average"`

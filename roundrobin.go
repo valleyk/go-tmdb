@@ -31,6 +31,7 @@ func (r *RoundRobin) GetTicker() int {
 		r.currentTicker = r.currentTicker + 1
 	} else {
 		r.currentTicker = 0
+		return 0
 	}
 
 	return ticker
